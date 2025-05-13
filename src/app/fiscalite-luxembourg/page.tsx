@@ -19,7 +19,7 @@ export default function FiscaliteLuxembourg() {
           <h1 className="headline-premium fade-in">Fiscalité au Luxembourg</h1>
           <div className="divider-premium" />
           <p className="subheadline-premium max-w-2xl mx-auto mb-6 fade-in">
-            Comprenez pourquoi le Luxembourg est une destination privilégiée pour l’optimisation fiscale des entreprises
+            Comprenez pourquoi le Luxembourg est une destination privilégiée pour l&apos;optimisation fiscale des entreprises
           </p>
         </div>
       </section>
@@ -32,15 +32,14 @@ export default function FiscaliteLuxembourg() {
             <section className="fade-in">
               <h2 className="text-3xl font-semibold text-royal-500 mb-4">Pourquoi le Luxembourg est-il attractif pour les entreprises ?</h2>
               <p className="text-grey-600 leading-relaxed">
-                Le Luxembourg est renommé pour son environnement fiscal avantageux, qui attire les entreprises internationales grâce à des taux d’imposition compétitifs, une stabilité politique et économique, et un réseau étendu de traités fiscaux. Ce guide explore les aspects clés de la fiscalité luxembourgeoise pour les entreprises.
+                Le Luxembourg est renommé pour son environnement fiscal avantageux, qui attire les entreprises internationales grâce à des taux d&apos;imposition compétitifs, une stabilité politique et économique, et un réseau étendu de traités fiscaux. Ce guide explore les aspects clés de la fiscalité luxembourgeoise pour les entreprises.
               </p>
             </section>
-
             {/* CORPORATE TAX RATES */}
             <section className="fade-in">
-              <h2 className="text-3xl font-semibold text-royal-500 mb-4">Taux d’imposition sur les sociétés</h2>
+              <h2 className="text-3xl font-semibold text-royal-500 mb-4">Taux d&apos;imposition sur les sociétés</h2>
               <p className="text-grey-600 leading-relaxed mb-4">
-                Le Luxembourg applique un taux d’impôt sur les sociétés (CIT) progressif basé sur le revenu imposable :
+                Le Luxembourg applique un taux d&apos;impôt sur les sociétés (CIT) progressif basé sur le revenu imposable :
               </p>
               <ul className="list-disc list-inside text-grey-600 space-y-2">
                 <li>
@@ -54,7 +53,7 @@ export default function FiscaliteLuxembourg() {
                 </li>
               </ul>
               <p className="text-grey-600 leading-relaxed mt-4">
-                De plus, le Luxembourg n’impose pas de retenue à la source sur les paiements d’intérêts et de redevances, ce qui en fait une destination attractive pour les multinationales.
+                De plus, le Luxembourg n&apos;impose pas de retenue à la source sur les paiements d&apos;intérêts et de redevances, ce qui en fait une destination attractive pour les multinationales.
               </p>
             </section>
 
@@ -62,7 +61,7 @@ export default function FiscaliteLuxembourg() {
             <section className="fade-in">
               <h2 className="text-3xl font-semibold text-royal-500 mb-4">Traités fiscaux</h2>
               <p className="text-grey-600 leading-relaxed">
-                Le Luxembourg a signé plus de 80 traités fiscaux bilatéraux pour éviter la double imposition, facilitant ainsi les opérations transfrontalières et l’optimisation fiscale pour les entreprises.
+                Le Luxembourg a signé plus de 80 traités fiscaux bilatéraux pour éviter la double imposition, facilitant ainsi les opérations transfrontalières et l&apos;optimisation fiscale pour les entreprises.
               </p>
             </section>
 
@@ -78,7 +77,7 @@ export default function FiscaliteLuxembourg() {
             <section className="fade-in">
               <h2 className="text-3xl font-semibold text-royal-500 mb-4">Régimes fiscaux spéciaux</h2>
               <p className="text-grey-600 leading-relaxed">
-                Le Luxembourg propose des régimes fiscaux avantageux pour certaines structures, comme les sociétés de holding et les fonds d’investissement, permettant une optimisation fiscale supplémentaire.
+                Le Luxembourg propose des régimes fiscaux avantageux pour certaines structures, comme les sociétés de holding et les fonds d&apos;investissement, permettant une optimisation fiscale supplémentaire.
               </p>
             </section>
 
@@ -103,7 +102,7 @@ export default function FiscaliteLuxembourg() {
             <section className="fade-in">
               <h2 className="text-3xl font-semibold text-royal-500 mb-4">Optimisez votre fiscalité avec Gresham Trust</h2>
               <p className="text-grey-600 leading-relaxed">
-                Le Luxembourg offre un cadre fiscal attractif pour les entreprises, avec des taux d’imposition compétitifs, une stabilité économique, et un réseau étendu de traités fiscaux. Gresham Trust vous accompagne dans la navigation des complexités fiscales luxembourgeoises, garantissant la conformité et l’optimisation de votre structure fiscale. Contactez-nous pour explorer les opportunités que le Luxembourg peut offrir à votre entreprise.
+                Le Luxembourg offre un cadre fiscal attractif pour les entreprises, avec des taux d&apos;imposition compétitifs, une stabilité économique, et un réseau étendu de traités fiscaux. Gresham Trust vous accompagne dans la navigation des complexités fiscales luxembourgeoises, garantissant la conformité et l’optimisation de votre structure fiscale. Contactez-nous pour explorer les opportunités que le Luxembourg peut offrir à votre entreprise.
               </p>
             </section>
           </div>
