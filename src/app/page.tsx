@@ -1,103 +1,250 @@
-import Image from "next/image";
+import { Button } from "./components/ui/Button";
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm/6 text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-[family-name:var(--font-geist-mono)] font-semibold">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
-
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+    <main className="min-h-screen bg-gray-50">
+      {/* HERO SECTION */}
+      <section className="section-hero">
+        <div className="relative z-10 w-full flex flex-col items-center justify-center text-center px-4 py-24 md:py-32">
+          <h1 className="headline-premium fade-in">Gresham Trust</h1>
+          <div className="divider-premium" />
+          <p className="subheadline-premium max-w-2xl mx-auto mb-6 fade-in">Votre Partenaire International pour la Création et la Gestion d’Entreprises Premium</p>
+          <p className="max-w-2xl mx-auto mb-10 text-lg text-white/90 font-medium fade-in">Nous accompagnons les entrepreneurs ambitieux dans le monde entier avec des solutions sur-mesure, une expertise de haut niveau et une approche humaine.</p>
+          <div className="flex flex-col md:flex-row gap-4 justify-center">
+            <Button as="a" href="/creer-societe/formulaire-creation" variant="primary" size="lg" className="cta-premium">CRÉER MA SOCIÉTÉ</Button>
+            <Button as="a" href="#services" variant="primary" size="lg" className="cta-premium">EN SAVOIR PLUS</Button>
+          </div>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
+      </section>
+
+      {/* EXCELLENCE SECTION */}
+      <section className="section">
+        <div className="container">
+          <div className="text-center mb-12">
+            <h2 className="headline-premium fade-in">« Excellence, Confiance, Croissance »</h2>
+            <div className="divider-premium mx-auto" />
+          </div>
+          <div className="max-w-4xl mx-auto text-center text-gray-700 space-y-6 fade-in">
+            <p>Depuis 1999, Gresham Trust Ltd. incarne l'excellence dans le conseil en investissement et l'accompagnement stratégique pour les entrepreneurs, investisseurs institutionnels et particuliers fortunés. Notre réputation repose sur une expertise rigoureuse, un réseau international et une éthique irréprochable.</p>
+            <p>Notre cabinet se distingue par une approche personnalisée, alliant réactivité et discrétion. Contrairement aux acteurs généralistes, nous privilégions une relation de confiance à long terme, où votre succès devient notre référence. Nos clients bénéficient d'un accès privilégié à des outils d'analyse exclusifs et à un réseau bancaire trié sur le volet.</p>
+            <p className="font-semibold">Engagés à transcender les simples conseils, nous transformons les complexités juridiques et financières en opportunités claires et maîtrisées. Parce que votre réussite mérite plus que des promesses, elle exige l'excellence opérationnelle.</p>
+          </div>
+          <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="card-premium fade-in">
+              <h3 className="font-bold text-xl mb-2 text-primary-600">Stratégie sur-mesure</h3>
+              <p className="text-gray-600">Solutions adaptées à chaque ambition, locale ou transnationale</p>
+            </div>
+            <div className="card-premium fade-in">
+              <h3 className="font-bold text-xl mb-2 text-primary-600">Réseau exclusif</h3>
+              <p className="text-gray-600">Partenariats bancaires et juridiques triés sur le volet</p>
+            </div>
+            <div className="card-premium fade-in">
+              <h3 className="font-bold text-xl mb-2 text-primary-600">Expertise depuis 1999</h3>
+              <p className="text-gray-600">Une expérience éprouvée au service de votre croissance</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* SERVICES SECTION */}
+      <section id="services" className="section-alt">
+        <div className="container">
+          <h2 className="headline-premium text-center fade-in">Nos Services Premium</h2>
+          <div className="divider-premium mx-auto" />
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
+            <div className="card-premium fade-in">
+              <div className="text-5xl mb-6 text-accent">🌐</div>
+              <h3 className="font-bold text-2xl mb-2 text-accent">Création Internationale</h3>
+              <p className="text-gray-600">Constitution rapide et sécurisée de sociétés dans les juridictions les plus attractives du monde.</p>
+            </div>
+            <div className="card-premium fade-in">
+              <div className="text-5xl mb-6 text-accent">📊</div>
+              <h3 className="font-bold text-2xl mb-2 text-accent">Comptabilité & Fiscalité</h3>
+              <p className="text-gray-600">Gestion comptable, fiscale et conformité avec optimisation sur-mesure pour chaque projet.</p>
+            </div>
+            <div className="card-premium fade-in">
+              <div className="text-5xl mb-6 text-accent">💼</div>
+              <h3 className="font-bold text-2xl mb-2 text-accent">Accompagnement Premium</h3>
+              <p className="text-gray-600">Support stratégique, juridique et bancaire à chaque étape de votre développement.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ABOUT SECTION */}
+      <section className="section-dark">
+        <div className="container">
+          <div className="flex flex-col md:flex-row items-center gap-12 md:gap-16">
+            <div className="flex-1 text-center md:text-left fade-in">
+              <h2 className="headline-premium">Gresham Trust : Votre Partenaire de Confiance</h2>
+              <div className="divider-premium md:mx-0" />
+              <p className="text-lg text-white/90 mb-6">Depuis notre création en 1999, Gresham Trust accompagne les entrepreneurs et les entreprises dans leur développement international. Notre expertise couvre les juridictions les plus attractives, offrant des solutions sur mesure pour chaque projet.</p>
+              <ul className="space-y-4 text-white/90">
+                <li className="flex items-start gap-4">
+                  <span className="text-3xl text-accent">🎯</span>
+                  <div>
+                    <h3 className="font-semibold mb-1">Expertise Internationale</h3>
+                    <p>Connaissance approfondie des juridictions les plus attractives pour votre activité.</p>
+                  </div>
+                </li>
+                <li className="flex items-start gap-4">
+                  <span className="text-3xl text-accent">🤝</span>
+                  <div>
+                    <h3 className="font-semibold mb-1">Partenaires Locaux</h3>
+                    <p>Réseau de partenaires locaux pour garantir la conformité et l'efficacité de vos opérations.</p>
+                  </div>
+                </li>
+                <li className="flex items-start gap-4">
+                  <span className="text-3xl text-accent">✔</span>
+                  <div>
+                    <h3 className="font-semibold mb-1">Approche Personnalisée</h3>
+                    <p>Relation de confiance durable avec des solutions adaptées à vos besoins.</p>
+                  </div>
+                </li>
+              </ul>
+              <Button as="a" href="/about" variant="primary" size="lg" className="mt-8">EN SAVOIR PLUS SUR NOUS</Button>
+            </div>
+            <div className="flex-1 flex items-center justify-center fade-in">
+              <div className="rounded-3xl overflow-hidden shadow-2xl border-4 border-primary-600 bg-gray-50 transform hover:scale-105 transition-transform duration-300">
+                <img src="/images/countries/Gibraltar.jpg" alt="Gresham Trust" className="object-cover w-80 h-80 md:w-96 md:h-96" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* BANKING SECTION */}
+      <section className="section">
+        <div className="container">
+          <div className="flex flex-col md:flex-row gap-8 items-center">
+            <div className="flex-1 fade-in">
+              <h3 className="subheadline-premium text-primary-600 mb-2">SOLUTIONS BANCAIRES</h3>
+              <h2 className="headline-premium mb-6">Accompagnement Bancaire International</h2>
+              <p className="mb-6 text-gray-600">Nous facilitons l'ouverture de comptes bancaires professionnels dans les juridictions choisies, en partenariat avec des établissements financiers de confiance.</p>
+              <Button as="a" href="/banking" variant="primary" size="lg">EN SAVOIR PLUS</Button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* PROCESS SECTION */}
+      <section className="section-alt">
+        <div className="container">
+          <div className="text-center mb-12 fade-in">
+            <h2 className="headline-premium">Notre Processus en 4 Étapes</h2>
+            <div className="divider-premium mx-auto" />
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mt-12">
+            <div className="card-premium fade-in">
+              <div className="text-4xl text-accent font-black mb-4">1</div>
+              <h3 className="font-bold text-xl mb-2">Consultation</h3>
+              <p className="text-gray-600">Analyse personnalisée de votre projet et recommandations sur-mesure.</p>
+            </div>
+            <div className="card-premium fade-in">
+              <div className="text-4xl text-accent font-black mb-4">2</div>
+              <h3 className="font-bold text-xl mb-2">Préparation</h3>
+              <p className="text-gray-600">Préparation complète des documents et formalités légales.</p>
+            </div>
+            <div className="card-premium fade-in">
+              <div className="text-4xl text-accent font-black mb-4">3</div>
+              <h3 className="font-bold text-xl mb-2">Création</h3>
+              <p className="text-gray-600">Mise en place rapide et sécurisée de votre structure.</p>
+            </div>
+            <div className="card-premium fade-in">
+              <div className="text-4xl text-accent font-black mb-4">4</div>
+              <h3 className="font-bold text-xl mb-2">Accompagnement</h3>
+              <p className="text-gray-600">Support continu et optimisation de votre développement.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* ARTICLES SECTION */}
+      <section className="section-dark">
+        <div className="container grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="card-premium bg-grey-800 text-white fade-in">
+            <div className="h-48 bg-grey-900 flex items-center justify-center rounded-t-2xl overflow-hidden">
+              <img src="/images/creer-une-entreprise.png" alt="10 raisons pour créer une société LTD" className="w-full h-full object-cover" />
+            </div>
+            <div className="p-6 flex-1 flex flex-col">
+              <h3 className="font-bold text-xl mb-2">10 raisons pour créer une société LTD</h3>
+              <Button as="a" href="/actualite" variant="primary" size="lg" className="cta-premium">LIRE L'ARTICLE »</Button>
+            </div>
+          </div>
+          <div className="card-premium bg-grey-800 text-white fade-in">
+            <div className="h-48 bg-grey-900 flex items-center justify-center rounded-t-2xl overflow-hidden">
+              <img src="/images/business.png" alt="Créer une entreprise à l'étranger" className="w-full h-full object-cover" />
+            </div>
+            <div className="p-6 flex-1 flex flex-col">
+              <h3 className="font-bold text-xl mb-2">Créer une entreprise à l'étranger</h3>
+              <Button as="a" href="/actualite/creer-son-entreprise-etrangere" variant="primary" size="lg" className="cta-premium">LIRE L'ARTICLE »</Button>
+            </div>
+          </div>
+          <div className="card-premium bg-grey-800 text-white fade-in">
+            <div className="h-48 bg-grey-900 flex items-center justify-center rounded-t-2xl overflow-hidden">
+              <img src="/images/countries/Dubai.jpg" alt="Guide business à Dubai" className="w-full h-full object-cover" />
+            </div>
+            <div className="p-6 flex-1 flex flex-col">
+              <h3 className="font-bold text-xl mb-2">Guide business à Dubai</h3>
+              <Button as="a" href="/actualite/guide-business-dubai" variant="primary" size="lg" className="cta-premium">LIRE L'ARTICLE »</Button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* CTA SECTION */}
+      <section className="section-hero">
+        <div className="relative z-10 w-full flex flex-col items-center justify-center text-center px-4 py-20 md:py-28">
+          <h2 className="headline-premium fade-in">Prêt à Développer Votre Activité Internationale ?</h2>
+          <div className="divider-premium" />
+          <p className="text-white/90 mb-8 max-w-xl mx-auto text-lg fade-in">Contactez-nous pour une consultation gratuite et découvrez les meilleures solutions pour votre entreprise.</p>
+          <div className="flex flex-col md:flex-row gap-4 justify-center">
+            <Button as="a" href="/creer-societe/formulaire-creation" variant="primary" size="lg" className="cta-premium">CRÉER MA SOCIÉTÉ</Button>
+            <Button as="a" href="/contact" variant="secondary" size="lg" className="cta-premium">PRENDRE RENDEZ-VOUS</Button>
+          </div>
+        </div>
+      </section>
+
+      {/* FOOTER */}
+      <footer className="footer-premium">
+        <div className="container grid grid-cols-1 md:grid-cols-4 gap-8">
+          <div className="fade-in">
+            <div className="mb-4 font-bold text-2xl text-primary-600">Gresham Trust</div>
+            <p className="text-gray-300 text-sm mb-4">Plateforme premium pour la création et la gestion de sociétés à l’international.</p>
+            <div className="flex gap-3 mt-2">
+              <a href="#" className="w-8 h-8 bg-primary-600 rounded-full flex items-center justify-center text-white text-sm hover:bg-blue-800 transition">F</a>
+              <a href="#" className="w-8 h-8 bg-primary-600 rounded-full flex items-center justify-center text-white text-sm hover:bg-blue-800 transition">I</a>
+              <a href="#" className="w-8 h-8 bg-primary-600 rounded-full flex items-center justify-center text-white text-sm hover:bg-blue-800 transition">L</a>
+            </div>
+          </div>
+          <div className="fade-in">
+            <div className="mb-4 font-bold text-primary-600">Contact</div>
+            <div className="text-gray-300 text-sm">+33 751 05 73 27</div>
+            <div className="text-gray-300 text-sm">hello@greshamtrust.com</div>
+          </div>
+          <div className="fade-in">
+            <div className="mb-4 font-bold text-primary-600">Services</div>
+            <ul className="text-sm space-y-2 text-gray-300">
+              <li><a href="#" className="hover:text-primary-600 transition">Création de société</a></li>
+              <li><a href="#" className="hover:text-primary-600 transition">Comptabilité</a></li>
+              <li><a href="#" className="hover:text-primary-600 transition">Domiciliation</a></li>
+              <li><a href="#" className="hover:text-primary-600 transition">Banque professionnelle</a></li>
+            </ul>
+          </div>
+          <div className="fade-in">
+            <div className="mb-4 font-bold text-primary-600">Newsletter</div>
+            <p className="text-sm mb-3 text-gray-300">Recevez nos conseils et actualités</p>
+            <div className="flex">
+              <input
+                type="email"
+                placeholder="Votre email"
+                className="rounded-l-lg px-4 py-2 text-gray-900 bg-gray-50 focus:outline-none focus:ring-2 focus:ring-primary-600"
+              />
+              <Button type="submit" variant="primary" size="sm" className="rounded-l-none rounded-r-lg">OK</Button>
+            </div>
+          </div>
+        </div>
+        <div className="mt-12 text-center text-xs text-gray-400 fade-in">{new Date().getFullYear()} Gresham Trust. Tous droits réservés.</div>
       </footer>
-    </div>
+    </main>
   );
 }
