@@ -1,5 +1,5 @@
 import { Metadata } from 'next';
-import { Button } from '../components/ui/Button';
+
 import Image from 'next/image';
 import NewsletterWrapper from '../components/NewsletterWrapper';
 export const metadata: Metadata = {

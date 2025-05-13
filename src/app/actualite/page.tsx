@@ -8,7 +8,7 @@ export default function Actualite() {
     <main className="min-h-screen pt-20 px-4">
       <div className="container mx-auto">
         <h1 className="text-4xl font-bold text-gray-900 mb-8">Actualité</h1>
-        <p className="text-lg text-gray-600 mb-12">Retrouvez ici nos derniers articles et informations sur la création d'entreprise à l'étranger.</p>
+        <p className="text-lg text-gray-600 mb-12">Retrouvez ici nos derniers articles et informations sur la création d&apos;entreprise à l&apos;étranger.</p>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
           <article className="bg-white rounded-lg shadow-lg overflow-hidden">

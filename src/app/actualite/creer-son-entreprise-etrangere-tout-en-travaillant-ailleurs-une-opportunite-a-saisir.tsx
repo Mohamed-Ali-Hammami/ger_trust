@@ -8,7 +8,7 @@ export default function Article2() {
       </div>
 
       <div className="max-w-2xl mx-auto">
-        <p className="mb-6 text-lg">Avec 35% des travailleurs indépendants opérant désormais hors de leur pays d'origine (Statista 2023), la création d'entreprise à l'étranger pendant une activité salariée devient une stratégie courante. Décryptage d'une tendance en plein essor.</p>
+        <p className="mb-6 text-lg">Avec 35% des travailleurs indépendants opérant désormais hors de leur pays d&apos;origine (Statista 2023), la création d&apos;entreprise à l&apos;étranger pendant une activité salariée devient une stratégie courante. Décryptage d&apos;une tendance en plein essor.</p>
 
         <div className="space-y-8">
           <div>
@@ -17,9 +17,9 @@ export default function Article2() {
               <li>
                 <strong>Optimisation fiscale légale :</strong> 
                 <ul className="list-[circle] pl-4 mt-2">
-                  <li>Régime forfaitaire suisse à partir de CHF 150,000/an (Loi fédérale sur l'imposition des entreprises)</li>
+                  <li>Régime forfaitaire suisse à partir de CHF 150,000/an (Loi fédérale sur l&apos;imposition des entreprises)</li>
                   <li>Imposition territoriale à Dubaï (0% sur les revenus hors Émirats)</li>
-                  <li>Crédit d'impôt foreign tax credit aux États-Unis pour éviter la double imposition</li>
+                  <li>Crédit d&apos;impôt foreign tax credit aux États-Unis pour éviter la double imposition</li>
                 </ul>
               </li>
               
@@ -40,7 +40,7 @@ export default function Article2() {
             <div className="grid md:grid-cols-2 gap-4">
               <div className="p-4 bg-blue-50 rounded-lg">
                 <h3 className="font-semibold mb-2">Respect des obligations</h3>
-                <p>En France : Déclaration n°2065 pour les comptes à l'étranger (amende jusqu'à 750€ par compte non déclaré)</p>
+                <p>En France : Déclaration n°2065 pour les comptes à l&apos;étranger (amende jusqu&apos;à 750€ par compte non déclaré)</p>
               </div>
               <div className="p-4 bg-blue-50 rounded-lg">
                 <h3 className="font-semibold mb-2">Conflits de juridiction</h3>
@@ -53,10 +53,10 @@ export default function Article2() {
             <h2 className="text-xl font-semibold mb-2">Étapes pratiques</h2>
             <ol className="list-decimal pl-6 space-y-4">
               <li>Choisir une juridiction alignée avec son activité (ex: Chypre pour le shipping, Malte pour le gaming)</li>
-              <li>Vérifier les clauses de non-concurrence dans son contrat de travail actuel (illégales dans 43% des pays selon l'OIT)</li>
-              <li>Utiliser des plateformes d'incorporation digitales :
+              <li>Vérifier les clauses de non-concurrence dans son contrat de travail actuel (illégales dans 43% des pays selon l&apos;OIT)</li>
+              <li>Utiliser des plateformes d&apos;incorporation digitales :
                 <ul className="list-[circle] pl-4 mt-2">
-                  <li>Stripe Atlas (Delaware) : 500€ de frais d'incorporation</li>
+                  <li>Stripe Atlas (Delaware) : 500€ de frais d&apos;incorporation</li>
                   <li>Osome (Singapour) : gestion complète pour 290€/mois</li>
                 </ul>
               </li>
@@ -67,8 +67,8 @@ export default function Article2() {
             <h3 className="font-semibold mb-2">Cas réel : Success Story</h3>
             <p>Marie, développeuse française salariée à Berlin :</p>
             <ul className="list-[circle] pl-4 mt-2">
-              <li>Création d'une OÜ estonienne en 3 jours</li>
-              <li>CA 2023 : 320k€ (taux d'imposition effectif : 14% vs 42% en Allemagne)</li>
+              <li>Création d&#39;une OÜ estonienne en 3 jours</li>
+              <li>CA 2023 : 320k€ (taux d&#39;imposition effectif : 14% vs 42% en Allemagne)</li>
               <li>Maintien de son CDI initial avec accord employeur (20h/semaine)</li>
             </ul>
           </div>

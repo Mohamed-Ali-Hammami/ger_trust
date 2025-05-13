@@ -43,7 +43,7 @@ export const Newsletter: React.FC<NewsletterProps> = ({ guideTitle, onSubmit }) 
           {guideTitle}
         </h2>
         <p className="text-gray-600">
-          En partageant simplement vos coordonnées ci-dessous, vous rejoindrez le cercle restreint de ceux qui anticipent. Parce qu'en matière d'épargne, la sagesse commence toujours par une longueur d'avance.
+          En partageant simplement vos coordonnées ci-dessous, vous rejoindrez le cercle restreint de ceux qui anticipent. Parce qu&apos;en matière d&apos;épargne, la sagesse commence toujours par une longueur d&apos;avance.
         </p>
       </div>
 

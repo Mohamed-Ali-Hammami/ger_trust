@@ -9,7 +9,7 @@ export default function Boutique() {
     <main className="min-h-screen pt-20 px-4">
       <div className="max-w-6xl mx-auto">
         <h1 className="text-3xl font-bold mb-4">Solutions Clés en Main</h1>
-        <p className="mb-8 text-gray-600">Services 100% digitalisés avec garantie d'acceptation bancaire</p>
+        <p className="mb-8 text-gray-600">Services 100% digitalisés avec garantie d&apos;acceptation bancaire</p>
 
         <div className="grid md:grid-cols-3 gap-8 mb-12">
           {/* Pack Start-up */}
@@ -46,7 +46,7 @@ export default function Boutique() {
             <ul className="space-y-3 mb-6">
               <li className="flex items-center">
                 <CheckIcon />
-                Société Hong Kong Limited + Secrétaire d'entreprise
+                Société Hong Kong Limited + Secrétaire d&apos;entreprise
               </li>
               <li className="flex items-center">
                 <CheckIcon />

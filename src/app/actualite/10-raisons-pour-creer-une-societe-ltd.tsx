@@ -4,7 +4,7 @@ export default function Article1() {
       <h1 className="text-3xl font-bold mb-6">10 raisons pour créer une société LTD à Dubai, Gibraltar, Hong Kong, Luxembourg, Singapour ou en Suisse</h1>
       
       <div className="bg-gray-200 rounded-lg h-64 mb-8 flex items-center justify-center text-gray-500">
-        <span>Carte du monde avec des icônes d'entreprises</span>
+        <span>Carte du monde avec des icônes d&apos;entreprises</span>
       </div>
 
       <div className="max-w-2xl mx-auto">
@@ -13,7 +13,7 @@ export default function Article1() {
         <div className="space-y-8">
           <div>
             <h2 className="text-xl font-semibold mb-2">1. Régimes fiscaux avantageux</h2>
-            <p>Ces juridictions proposent des taux d'imposition concurrentiels : 0% de TVA à Gibraltar, impôt sur les sociétés à 8.5% à Hong Kong, ou exonérations totales dans les zones franches dubaiotes. La Suisse et le Luxembourg offrent des arrangements fiscaux négociables pour les holdings.</p>
+            <p>Ces juridictions proposent des taux d&apos;imposition concurrentiels : 0% de TVA à Gibraltar, impôt sur les sociétés à 8.5% à Hong Kong, ou exonérations totales dans les zones franches dubaiotes. La Suisse et le Luxembourg offrent des arrangements fiscaux négociables pour les holdings.</p>
           </div>
 
           <div>
@@ -28,7 +28,7 @@ export default function Article1() {
 
           <div>
             <h2 className="text-xl font-semibold mb-2">4. Position géostratégique</h2>
-            <p>Hub continental (Luxembourg), porte d'entrée asiatique (Singapour) ou carrefour eurasiatique (Dubaï) : chaque juridiction offre un ancrage régional unique.</p>
+            <p>Hub continental (Luxembourg), porte d&apos;entrée asiatique (Singapour) ou carrefour eurasiatique (Dubaï) : chaque juridiction offre un ancrage régional unique.</p>
           </div>
 
           <div>
@@ -58,7 +58,7 @@ export default function Article1() {
 
           <div>
             <h2 className="text-xl font-semibold mb-2">10. Image de marque prestigieuse</h2>
-            <p>Une société enregistrée à Zurich, Genève ou Singapour bénéficie immédiatement d'une crédibilité internationale auprès des investisseurs.</p>
+            <p>Une société enregistrée à Zurich, Genève ou Singapour bénéficie immédiatement d&apos;une crédibilité internationale auprès des investisseurs.</p>
           </div>
         </div>
 

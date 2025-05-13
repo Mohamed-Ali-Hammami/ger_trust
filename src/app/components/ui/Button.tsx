@@ -29,7 +29,7 @@ const Button = forwardRef<HTMLButtonElement, ButtonProps>(
         <Link
           href={href}
           className={[baseStyles, variantStyles[variant], sizeStyles[size], className].filter(Boolean).join(' ')}
-          {...props as any}
+          {...props as React.AnchorHTMLAttributes<HTMLAnchorElement>}
         >
           {children}
         </Link>

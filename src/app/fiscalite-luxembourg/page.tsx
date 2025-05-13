@@ -1,6 +1,5 @@
 import { Metadata } from 'next';
-import { Button } from '../components/ui/Button';
-import Image from 'next/image';
+
 import NewsletterWrapper from '../components/NewsletterWrapper';
 
 export const metadata: Metadata = {
@@ -84,12 +83,10 @@ export default function FiscaliteLuxembourg() {
             {/* IMAGE SECTION */}
             <section className="fade-in">
               <div className="relative w-full h-64 md:h-96 rounded-2xl overflow-hidden shadow-royal-lg">
-                <Image
+                <img
                   src="/images/countries/Luxembourg.jpg"
                   alt="Ville de Luxembourg"
-                  layout="fill"
-                  objectFit="cover"
-                  className="rounded-2xl"
+                  className="w-full h-full object-cover rounded-2xl"
                 />
               </div>
               <p className="text-center text-grey-500 text-sm mt-4">
