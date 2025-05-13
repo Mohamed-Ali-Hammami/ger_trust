@@ -68,6 +68,7 @@ export function CountriesDropdown() {
             description={countries.find(c => c.title === selectedCountry)?.description || ''}
             benefits={countries.find(c => c.title === selectedCountry)?.benefits || []}
             cta={countries.find(c => c.title === selectedCountry)?.cta || ''}
+            image={countries.find(c => c.title === selectedCountry)?.image || 'default.jpg'}
           />
         </div>
       )}

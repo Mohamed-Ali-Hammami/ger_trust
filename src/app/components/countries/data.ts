@@ -12,7 +12,8 @@ export const countries: CountryData[] = [
       'Accès au marché du Moyen-Orient',
       'Infrastructure de classe mondiale'
     ],
-    cta: 'Créez votre entreprise à Dubai'
+    cta: 'Créez votre entreprise à Dubai',
+    image: 'Dubai.jpg'
   },
   {
     title: 'Gibraltar',
@@ -25,7 +26,8 @@ export const countries: CountryData[] = [
       'Accès au marché européen',
       'Infrastructure financière développée'
     ],
-    cta: 'Créez votre entreprise à Gibraltar'
+    cta: 'Créez votre entreprise à Gibraltar',
+    image: 'Gibraltar.jpg'
   },
   {
     title: 'Hong Kong',
@@ -38,7 +40,8 @@ export const countries: CountryData[] = [
       'Accès au marché chinois',
       'Infrastructure financière mondiale'
     ],
-    cta: 'Créez votre entreprise à Hong Kong'
+    cta: 'Créez votre entreprise à Hong Kong',
+    image: 'HongKong.jpg'
   },
   {
     title: 'Luxembourg',
@@ -51,6 +54,7 @@ export const countries: CountryData[] = [
       'Infrastructure financière développée',
       'Stabilité politique'
     ],
+    image: 'Luxembourg.jpg',
     cta: 'Créez votre entreprise au Luxembourg'
   },
   {
@@ -64,7 +68,8 @@ export const countries: CountryData[] = [
       'Accès au marché asiatique',
       'Infrastructure de classe mondiale'
     ],
-    cta: 'Créez votre entreprise à Singapour'
+    cta: 'Créez votre entreprise à Singapour',
+    image: 'Singapour.jpg'
   },
   {
     title: 'Suisse',
@@ -77,6 +82,7 @@ export const countries: CountryData[] = [
       'Infrastructure financière développée',
       'Stabilité politique'
     ],
-    cta: 'Créez votre entreprise en Suisse'
+    cta: 'Créez votre entreprise en Suisse',
+    image: 'Suisse.jpg'
   }
 ];

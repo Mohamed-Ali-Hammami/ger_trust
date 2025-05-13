@@ -13,4 +13,5 @@ export interface CountryData {
   description: string;
   benefits: string[];
   cta: string;
+  image: string;
 }
