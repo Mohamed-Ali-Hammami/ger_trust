@@ -25,12 +25,12 @@ export default function Article2() {
               
               <li>
                 <strong>Protection patrimoniale :</strong> 
-                <p>Les structures offshore à Singapour (Variable Capital Company) séparent légalement l'actif personnel et professionnel</p>
+                <p>Les structures offshore à Singapour (Variable Capital Company) séparent légalement l&apos;actif personnel et professionnel</p>
               </li>
 
               <li>
                 <strong>Accès à des marchés spécifiques :</strong>
-                <p>Une société estonienne (e-Residency) donne accès à l'UE sans résidence physique - 100,000 entreprises créées depuis 2014</p>
+                <p>Une société estonienne (e-Residency) donne accès à l&apos;UE sans résidence physique - 100,000 entreprises créées depuis 2014</p>
               </li>
             </ul>
           </div>
@@ -44,7 +44,7 @@ export default function Article2() {
               </div>
               <div className="p-4 bg-blue-50 rounded-lg">
                 <h3 className="font-semibold mb-2">Conflits de juridiction</h3>
-                <p>L'article 4 de la Convention de Vienne interdit la double imposition entre 100+ pays signataires</p>
+                <p>L&apos;article 4 de la Convention de Vienne interdit la double imposition entre 100+ pays signataires</p>
               </div>
             </div>
           </div>
@@ -76,7 +76,7 @@ export default function Article2() {
           <div className="p-4 bg-red-50 rounded-lg">
             <h3 className="font-semibold mb-2">Pièges à éviter</h3>
             <ul className="list-disc pl-6">
-              <li>Contrôle fiscal sur les "Transfer Pricing" (règles OECD BEPS)</li>
+              <li>Contrôle fiscal sur les &ldquo;Transfer Pricing&rdquo; (règles OECD BEPS)</li>
               <li>Exigences de substance économique : minimum 1-3 employés locaux à Singapour</li>
               <li>Interdiction des nominee directors en Suisse (art. 697 CO)</li>
             </ul>

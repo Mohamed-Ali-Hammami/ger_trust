@@ -1,3 +1,5 @@
+import React from 'react';
+import Image from 'next/image';
 import { Metadata } from 'next';
 
 import NewsletterWrapper from '../components/NewsletterWrapper';
@@ -83,10 +85,13 @@ export default function FiscaliteLuxembourg() {
             {/* IMAGE SECTION */}
             <section className="fade-in">
               <div className="relative w-full h-64 md:h-96 rounded-2xl overflow-hidden shadow-royal-lg">
-                <img
+                <Image
                   src="/images/countries/Luxembourg.jpg"
                   alt="Ville de Luxembourg"
-                  className="w-full h-full object-cover rounded-2xl"
+                  fill
+                  className="object-cover rounded-2xl"
+                  priority
+                  sizes="(max-width: 768px) 100vw, 50vw"
                 />
               </div>
               <p className="text-center text-grey-500 text-sm mt-4">

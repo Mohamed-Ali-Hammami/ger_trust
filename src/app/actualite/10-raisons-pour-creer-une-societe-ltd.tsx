@@ -8,7 +8,7 @@ export default function Article1() {
       </div>
 
       <div className="max-w-2xl mx-auto">
-        <p className="mb-6 text-lg">Dans un marché mondialisé, le choix de la juridiction d'implantation peut devenir un avantage stratégique décisif. Découvrez pourquoi ces six destinations attirent les entrepreneurs avisés.</p>
+        <p className="mb-6 text-lg">Dans un marché mondialisé, le choix de la juridiction d&apos;implantation peut devenir un avantage stratégique décisif. Découvrez pourquoi ces six destinations attirent les entrepreneurs avisés.</p>
 
         <div className="space-y-8">
           <div>
@@ -23,7 +23,7 @@ export default function Article1() {
 
           <div>
             <h2 className="text-xl font-semibold mb-2">3. Processus de création simplifié</h2>
-            <p>En 48 heures à Hong Kong avec un capital de 1 HKD, 3 jours à Dubaï pour une free zone company. Toutes ces juridictions ont digitalisé leurs procédures d'incorporation.</p>
+            <p>En 48 heures à Hong Kong avec un capital de 1 HKD, 3 jours à Dubaï pour une free zone company. Toutes ces juridictions ont digitalisé leurs procédures d&apos;incorporation.</p>
           </div>
 
           <div>
@@ -38,21 +38,21 @@ export default function Article1() {
 
           <div>
             <h2 className="text-xl font-semibold mb-2">6. Confidentialité renforcée</h2>
-            <p>Gibraltar et les Émirats n'exigent pas de révéler les bénéficiaires effectifs au registre public. La Suisse maintient une stricte protection des données.</p>
+            <p>Gibraltar et les Émirats n&apos;exigent pas de révéler les bénéficiaires effectifs au registre public. La Suisse maintient une stricte protection des données.</p>
           </div>
 
           <div>
             <h2 className="text-xl font-semibold mb-2">7. Accès à des marchés premium</h2>
-            <p>Le passeport financier luxembourgeois pour l'UE, l'accès privilégié au marché chinois via Hong Kong, ou aux pays du Golfe depuis Dubaï.</p>
+            <p>Le passeport financier luxembourgeois pour l&apos;UE, l&apos;accès privilégié au marché chinois via Hong Kong, ou aux pays du Golfe depuis Dubaï.</p>
           </div>
 
           <div>
             <h2 className="text-xl font-semibold mb-2">8. Écosystèmes sectoriels</h2>
-            <p>Fintech à Singapour, trading de matières premières à Genève, fonds d'investissement au Luxembourg - chaque hub excelle dans sa spécialité.</p>
+            <p>Fintech à Singapour, trading de matières premières à Genève, fonds d&apos;investissement au Luxembourg - chaque hub excelle dans sa spécialité.</p>
           </div>
 
           <div>
-            <h2 className="text-xl font-semibold mb-2">9. Main-d'œuvre qualifiée</h2>
+            <h2 className="text-xl font-semibold mb-2">9. Main-d&apos;œuvre qualifiée</h2>
             <p>La Suisse compte le plus de brevets par habitant au monde. Dubaï attire les talents internationaux avec sa fiscalité personnelle avantageuse.</p>
           </div>
 

@@ -60,12 +60,12 @@ export default function CompteBancaireProfessionnel() {
               <div className="bg-white rounded-lg shadow-lg p-6">
                 <h3 className="text-xl font-semibold text-gray-900 mb-3">Ouverture de compte</h3>
                 <p className="text-gray-600 mb-4">
-                  Nous vous accompagnons dans l'ouverture de votre compte bancaire professionnel, en France et à l'international.
+                  Nous vous accompagnons dans l&apos;ouverture de votre compte bancaire professionnel, en France et à l&apos;international.
                 </p>
                 <ul className="list-disc list-inside text-gray-600">
                   <li>Choix du pays et de la banque adaptés à votre activité</li>
                   <li>Assistance dans la constitution du dossier</li>
-                  <li>Suivi jusqu'à l'ouverture effective du compte</li>
+                  <li>Suivi jusqu&apos;à l&apos;ouverture effective du compte</li>
                 </ul>
               </div>
 

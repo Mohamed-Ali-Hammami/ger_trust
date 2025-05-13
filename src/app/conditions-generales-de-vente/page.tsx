@@ -8,14 +8,14 @@ export default function ConditionsGeneralesDeVente() {
         {/* Article 1 - Objet */}
         <div>
           <h2 className="text-xl font-semibold mb-2">Article 1 - Objet</h2>
-          <p>Les présentes CGV régissent exclusivement les relations entre Gresham Trust Ltd (immatriculée au RCS de Luxembourg N° B 987654) et ses clients, pour toutes prestations de conseil en structuration patrimoniale, incorporation internationale et gestion d'actifs.</p>
+          <p>Les présentes CGV régissent exclusivement les relations entre Gresham Trust Ltd (immatriculée au RCS de Luxembourg N° B 987654) et ses clients, pour toutes prestations de conseil en structuration patrimoniale, incorporation internationale et gestion d&apos;actifs.</p>
         </div>
 
-        {/* Article 2 - Champ d'application */}
+        {/* Article 2 - Champ d&apos;application */}
         <div>
-          <h2 className="text-xl font-semibold mb-2">Article 2 - Champ d'application</h2>
+          <h2 className="text-xl font-semibold mb-2">Article 2 - Champ d&apos;application</h2>
           <ul className="list-disc pl-6 space-y-2">
-            <li>S'appliquent à tout contrat conclu à distance via notre plateforme sécurisée</li>
+            <li>S&apos;appliquent à tout contrat conclu à distance via notre plateforme sécurisée</li>
             <li>Prévalent sur tout document contradictoire sauf accord écrit signé par un dirigeant</li>
             <li>Conformes aux directives MiFID II et AIFMD pour les services régulés</li>
           </ul>
@@ -65,7 +65,7 @@ export default function ConditionsGeneralesDeVente() {
             <p><strong>5.2</strong> Plafonnement de responsabilité :</p>
             <ul className="list-disc pl-6">
               <li>Limitée au montant des honoraires perçus sur les 12 derniers mois</li>
-              <li>Exclusion des dommages indirects et perte d'exploitation</li>
+              <li>Exclusion des dommages indirects et perte d&apos;exploitation</li>
             </ul>
           </div>
         </div>
@@ -76,7 +76,7 @@ export default function ConditionsGeneralesDeVente() {
           <ul className="list-disc pl-6 space-y-2">
             <li>NDA automatique pour toute relation commerciale (10 ans post-résiliation)</li>
             <li>Protocole GDPR : données hébergées en UE (certifié ISO 27001)</li>
-            <li>Interdiction de reverse engineering des modèles d'analyse</li>
+            <li>Interdiction de reverse engineering des modèles d&apos;analyse</li>
           </ul>
         </div>
 

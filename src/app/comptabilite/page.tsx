@@ -11,7 +11,7 @@ export default function Comptabilite() {
           <div>
             <h2 className="text-2xl font-semibold text-gray-800 mb-6">Notre service comptabilité</h2>
             <p className="text-gray-600 mb-4">
-              Nous offrons des services comptables professionnels adaptés aux besoins spécifiques de votre entreprise, que vous soyez en France ou à l'international.
+              Nous offrons des services comptables professionnels adaptés aux besoins spécifiques de votre entreprise, que vous soyez en France ou à l&apos;international.
             </p>
             
             <div className="space-y-6">
@@ -73,7 +73,7 @@ export default function Comptabilite() {
                 </div>
                 <div>
                   <h3 className="font-medium text-gray-900">Support continu</h3>
-                  <p className="text-gray-600">Accompagnement tout au long de l'année</p>
+                  <p className="text-gray-600">Accompagnement tout au long de l&apos;année</p>
                 </div>
               </div>
             </div>

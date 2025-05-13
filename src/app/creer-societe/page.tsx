@@ -17,7 +17,7 @@ export default function CreerSociete() {
             href="#formulaire-creation" 
             className="bg-green-600 text-white px-8 py-4 rounded-lg hover:bg-green-700 transition inline-block"
           >
-            Démarrer l'incorporation →
+            Démarrer l&apos;incorporation →
           </a>
         </div>
 
@@ -32,11 +32,11 @@ export default function CreerSociete() {
               </div>
               <div>
                 <h3 className="font-semibold mb-2">💸 Économies garanties</h3>
-                <p>Jusqu'à 80% de frais en moins qu'un cabinet traditionnel (comparatif 2024 Deloitte)</p>
+                <p>Jusqu&apos;à 80% de frais en moins qu&apos;un cabinet traditionnel (comparatif 2024 Deloitte)</p>
               </div>
               <div>
                 <h3 className="font-semibold mb-2">🌍 Expertise multicarte</h3>
-                <p>Accès direct à 23 juridictions via notre réseau d'avocats agrées</p>
+                <p>Accès direct à 23 juridictions via notre réseau d&apos;avocats agrées</p>
               </div>
             </div>
           </div>
@@ -116,7 +116,7 @@ export default function CreerSociete() {
         <div className="mt-12 grid md:grid-cols-3 gap-4 text-center">
           <div className="p-4 border rounded-lg">
             <ShieldCheckIcon />
-            <p className="text-sm">Membre de l'Ordre des Experts-Comptables Luxembourg</p>
+            <p className="text-sm">Membre de l&apos;Ordre des Experts-Comptables Luxembourg</p>
           </div>
           <div className="p-4 border rounded-lg">
             <LockClosedIcon />

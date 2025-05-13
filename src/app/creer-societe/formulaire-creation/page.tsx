@@ -2,7 +2,7 @@ export default function FormulaireCreation() {
   return (
     <main className="min-h-screen pt-20 px-4">
       <div className="max-w-3xl mx-auto">
-        <h1 className="text-3xl font-bold mb-4">Questionnaire d'incorporation</h1>
+        <h1 className="text-3xl font-bold mb-4">Questionnaire d&apos;incorporation</h1>
         <p className="mb-8 text-gray-600">Informations requises pour une constitution optimale de votre société (Art. 5 RGPD)</p>
 
         <form className="bg-white p-8 rounded-xl shadow-lg">
@@ -125,7 +125,7 @@ export default function FormulaireCreation() {
                 </select>
               </div>
               <div className="md:col-span-2">
-                <label className="block mb-2 font-medium">Chiffre d'affaires estimé (année 1)*</label>
+                <label className="block mb-2 font-medium">Chiffre d&apos;affaires estimé (année 1)*</label>
                 <select className="w-full border rounded-lg px-4 py-2.5 bg-white" required>
                   <option value="">Fourchette</option>
                   <option>&lt; 100k €</option>
@@ -170,7 +170,7 @@ export default function FormulaireCreation() {
                 required 
               />
               <label htmlFor="terms" className="text-sm">
-                Je certifie l'exactitude des informations fournies et accepte les 
+                Je certifie l&apos;exactitude des informations fournies et accepte les 
                 <a href="/conditions-generales" className="text-blue-600 hover:underline ml-1">
                   conditions générales
                 </a>*
@@ -185,7 +185,7 @@ export default function FormulaireCreation() {
                 required 
               />
               <label htmlFor="compliance" className="text-sm">
-                J'atteste n'être soumis à aucune procédure judiciaire ou sanction internationale*
+                J&apos;atteste n&apos;être soumis à aucune procédure judiciaire ou sanction internationale*
               </label>
             </div>
 
@@ -197,7 +197,7 @@ export default function FormulaireCreation() {
             </button>
 
             <p className="text-center text-sm text-gray-500 mt-4">
-              Notre équipe vous contactera sous 24h ouvrables pour finaliser l'incorporation
+              Notre équipe vous contactera sous 24h ouvrables pour finaliser l&apos;incorporation
             </p>
           </div>
         </form>
