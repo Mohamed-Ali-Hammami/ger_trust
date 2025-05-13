@@ -11,7 +11,7 @@ export default function GestionPatrimoine() {
           <div>
             <h2 className="text-2xl font-semibold text-gray-800 mb-6">Votre patrimoine mérite une gestion stratégique</h2>
             <p className="text-gray-600 mb-4">
-              Nous vous accompagnons dans la construction et la protection de votre patrimoine, en France et à l'international.
+              Nous vous accompagnons dans la construction et la protection de votre patrimoine, en France et à l&apos;international.
             </p>
             
             <div className="space-y-6">

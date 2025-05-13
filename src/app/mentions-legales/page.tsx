@@ -40,7 +40,7 @@ export default function MentionsLegales() {
           <div>
             <h2 className="text-xl font-semibold mb-4">Propriété intellectuelle</h2>
             <p>
-              L'ensemble des contenus (textes, images, logos) est la propriété exclusive de Gresham Trust Ltd 
+              L&apos;ensemble des contenus (textes, images, logos) est la propriété exclusive de Gresham Trust Ltd 
               ou de ses concédants. Toute reproduction nécessite une autorisation écrite préalable 
               (article L.122-4 du Code de la propriété intellectuelle).
             </p>
@@ -63,7 +63,7 @@ export default function MentionsLegales() {
             <h2 className="text-xl font-semibold mb-4">Réglementation</h2>
             <ul className="list-disc pl-6 space-y-2">
               <li>Inscrit au registre de la CSSF (Commission de Surveillance du Secteur Financier)</li>
-              <li>Membre de l'Ordre des Experts-Comptables Luxembourg (OEC) n°12345</li>
+              <li>Membre de l&apos;Ordre des Experts-Comptables Luxembourg (OEC) n°12345</li>
               <li>Assurance responsabilité civile professionnelle : AXA XL Policy n°GB12345678</li>
             </ul>
           </div>

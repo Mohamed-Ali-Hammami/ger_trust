@@ -8,7 +8,7 @@ export default function PolitiqueConfidentialite() {
           <div>
             <h2 className="text-xl font-semibold mb-4">1. Responsable du traitement</h2>
             <p>
-              Gresham Trust Ltd (ci-après "le Cabinet"), immatriculée au RCS Luxembourg B 987654,
+              Gresham Trust Ltd (ci-après &quot;le Cabinet&quot;), immatriculée au RCS Luxembourg B 987654,
               agit en qualité de responsable de traitement au sens du RGPD (Règlement UE 2016/679).
             </p>
           </div>
@@ -65,9 +65,7 @@ export default function PolitiqueConfidentialite() {
 
           <div>
             <h2 className="text-xl font-semibold mb-4">5. Transferts internationaux</h2>
-            <p>
-              Les données restent dans l'EEE sauf nécessité contractuelle. Transferts hors UE encadrés par :
-            </p>
+            <p>Les données restent dans l&apos;EEE sauf nécessité contractuelle. Transferts hors UE encadrés par :</p>
             <ul className="list-disc pl-6 space-y-2">
               <li>Clauses contractuelles types (Décision UE 2021/914)</li>
               <li>Certification Privacy Shield (États-Unis)</li>
@@ -79,7 +77,7 @@ export default function PolitiqueConfidentialite() {
             <h2 className="text-xl font-semibold mb-4">6. Sécurité</h2>
             <ul className="list-disc pl-6 space-y-2">
               <li>Chiffrement AES-256 + TLS 1.3</li>
-              <li>Contrôle d'accès biométrique</li>
+              <li>Contrôle d&apos;accès biométrique</li>
               <li>Audits pentest trimestriels</li>
               <li>Segmentation réseau de niveau MILS</li>
             </ul>
@@ -106,7 +104,7 @@ export default function PolitiqueConfidentialite() {
               </div>
               <div className="p-3 border rounded">
                 <h3 className="font-semibold">Oubli & Restriction</h3>
-                <p className="text-sm">Sous réserve de obligations légales</p>
+                <p className="text-sm">Sous réserve des obligations légales</p>
               </div>
             </div>
           </div>
@@ -114,7 +112,7 @@ export default function PolitiqueConfidentialite() {
           <div className="bg-red-50 p-4 rounded-lg">
             <h2 className="text-xl font-semibold mb-2">Avertissement légal</h2>
             <p className="text-sm">
-              Toute fausse déclaration ou tentative d'accès illicite sera signalée aux autorités compétentes 
+              Toute fausse déclaration ou tentative d&apos;accès illicite sera signalée aux autorités compétentes 
               (Art. 226-1 du Code pénal luxembourgeois).
             </p>
           </div>

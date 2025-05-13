@@ -1,4 +1,5 @@
 import { Button } from "./components/ui/Button";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -25,9 +26,9 @@ export default function Home() {
             <div className="divider-premium mx-auto" />
           </div>
           <div className="max-w-4xl mx-auto text-center text-gray-700 space-y-6 fade-in">
-            <p>Depuis 1999, Gresham Trust Ltd. incarne l'excellence dans le conseil en investissement et l'accompagnement stratégique pour les entrepreneurs, investisseurs institutionnels et particuliers fortunés. Notre réputation repose sur une expertise rigoureuse, un réseau international et une éthique irréprochable.</p>
-            <p>Notre cabinet se distingue par une approche personnalisée, alliant réactivité et discrétion. Contrairement aux acteurs généralistes, nous privilégions une relation de confiance à long terme, où votre succès devient notre référence. Nos clients bénéficient d'un accès privilégié à des outils d'analyse exclusifs et à un réseau bancaire trié sur le volet.</p>
-            <p className="font-semibold">Engagés à transcender les simples conseils, nous transformons les complexités juridiques et financières en opportunités claires et maîtrisées. Parce que votre réussite mérite plus que des promesses, elle exige l'excellence opérationnelle.</p>
+            <p>Depuis 1999, Gresham Trust Ltd. incarne l&apos;excellence dans le conseil en investissement et l&apos;accompagnement stratégique pour les entrepreneurs, investisseurs institutionnels et particuliers fortunés. Notre réputation repose sur une expertise rigoureuse, un réseau international et une éthique irréprochable.</p>
+            <p>Notre cabinet se distingue par une approche personnalisée, alliant réactivité et discrétion. Contrairement aux acteurs généralistes, nous privilégions une relation de confiance à long terme, où votre succès devient notre référence. Nos clients bénéficient d&apos;un accès privilégié à des outils d&apos;analyse exclusifs et à un réseau bancaire trié sur le volet.</p>
+            <p className="font-semibold">Engagés à transcender les simples conseils, nous transformons les complexités juridiques et financières en opportunités claires et maîtrisées. Parce que votre réussite mérite plus que des promesses, elle exige l&apos;excellence opérationnelle.</p>
           </div>
           <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="card-premium fade-in">
@@ -91,7 +92,7 @@ export default function Home() {
                   <span className="text-3xl text-accent">🤝</span>
                   <div>
                     <h3 className="font-semibold mb-1">Partenaires Locaux</h3>
-                    <p>Réseau de partenaires locaux pour garantir la conformité et l'efficacité de vos opérations.</p>
+                    <p>Réseau de partenaires locaux pour garantir la conformité et l&apos;efficacité de vos opérations.</p>
                   </div>
                 </li>
                 <li className="flex items-start gap-4">
@@ -106,7 +107,7 @@ export default function Home() {
             </div>
             <div className="flex-1 flex items-center justify-center fade-in">
               <div className="rounded-3xl overflow-hidden shadow-2xl border-4 border-primary-600 bg-gray-50 transform hover:scale-105 transition-transform duration-300">
-                <img src="/images/countries/Gibraltar.jpg" alt="Gresham Trust" className="object-cover w-80 h-80 md:w-96 md:h-96" />
+                <Image src="/images/countries/Gibraltar.jpg" alt="Gresham Trust" width={400} height={400} className="object-cover w-80 h-80 md:w-96 md:h-96" />
               </div>
             </div>
           </div>
@@ -120,7 +121,7 @@ export default function Home() {
             <div className="flex-1 fade-in">
               <h3 className="subheadline-premium text-primary-600 mb-2">SOLUTIONS BANCAIRES</h3>
               <h2 className="headline-premium mb-6">Accompagnement Bancaire International</h2>
-              <p className="mb-6 text-gray-600">Nous facilitons l'ouverture de comptes bancaires professionnels dans les juridictions choisies, en partenariat avec des établissements financiers de confiance.</p>
+              <p className="mb-6 text-gray-600">Nous facilitons l&apos;ouverture de comptes bancaires professionnels dans les juridictions choisies, en partenariat avec des établissements financiers de confiance.</p>
               <Button as="a" href="/banking" variant="primary" size="lg">EN SAVOIR PLUS</Button>
             </div>
           </div>
@@ -163,29 +164,29 @@ export default function Home() {
         <div className="container grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="card-premium bg-grey-800 text-white fade-in">
             <div className="h-48 bg-grey-900 flex items-center justify-center rounded-t-2xl overflow-hidden">
-              <img src="/images/creer-une-entreprise.png" alt="10 raisons pour créer une société LTD" className="w-full h-full object-cover" />
+              <Image src="/images/creer-une-entreprise.png" alt="10 raisons pour créer une société LTD" width={400} height={200} className="w-full h-full object-cover" />
             </div>
             <div className="p-6 flex-1 flex flex-col">
               <h3 className="font-bold text-xl mb-2">10 raisons pour créer une société LTD</h3>
-              <Button as="a" href="/actualite" variant="primary" size="lg" className="cta-premium">LIRE L'ARTICLE »</Button>
+              <Button as="a" href="/actualite" variant="primary" size="lg" className="cta-premium">LIRE L&apos;ARTICLE »</Button>
             </div>
           </div>
           <div className="card-premium bg-grey-800 text-white fade-in">
             <div className="h-48 bg-grey-900 flex items-center justify-center rounded-t-2xl overflow-hidden">
-              <img src="/images/business.png" alt="Créer une entreprise à l'étranger" className="w-full h-full object-cover" />
+              <Image src="/images/business.png" alt="Créer une entreprise à l&apos;étranger" width={400} height={200} className="w-full h-full object-cover" />
             </div>
             <div className="p-6 flex-1 flex flex-col">
-              <h3 className="font-bold text-xl mb-2">Créer une entreprise à l'étranger</h3>
-              <Button as="a" href="/actualite/creer-son-entreprise-etrangere" variant="primary" size="lg" className="cta-premium">LIRE L'ARTICLE »</Button>
+              <h3 className="font-bold text-xl mb-2">Créer une entreprise à l&apos;étranger</h3>
+              <Button as="a" href="/actualite/creer-son-entreprise-etrangere" variant="primary" size="lg" className="cta-premium">LIRE L&apos;ARTICLE »</Button>
             </div>
           </div>
           <div className="card-premium bg-grey-800 text-white fade-in">
             <div className="h-48 bg-grey-900 flex items-center justify-center rounded-t-2xl overflow-hidden">
-              <img src="/images/countries/Dubai.jpg" alt="Guide business à Dubai" className="w-full h-full object-cover" />
+              <Image src="/images/countries/Dubai.jpg" alt="Guide business à Dubai" width={400} height={200} className="w-full h-full object-cover" />
             </div>
             <div className="p-6 flex-1 flex flex-col">
               <h3 className="font-bold text-xl mb-2">Guide business à Dubai</h3>
-              <Button as="a" href="/actualite/guide-business-dubai" variant="primary" size="lg" className="cta-premium">LIRE L'ARTICLE »</Button>
+              <Button as="a" href="/actualite/guide-business-dubai" variant="primary" size="lg" className="cta-premium">LIRE L&apos;ARTICLE »</Button>
             </div>
           </div>
         </div>
