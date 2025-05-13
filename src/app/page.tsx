@@ -1,5 +1,6 @@
 import { Button } from "./components/ui/Button";
 import Image from "next/image";
+import NewsletterWrapper from "./components/NewsletterWrapper";
 
 export default function Home() {
   return (
@@ -12,8 +13,7 @@ export default function Home() {
           <p className="subheadline-premium max-w-2xl mx-auto mb-6 fade-in">Votre Partenaire International pour la Création et la Gestion d’Entreprises Premium</p>
           <p className="max-w-2xl mx-auto mb-10 text-lg text-white/90 font-medium fade-in">Nous accompagnons les entrepreneurs ambitieux dans le monde entier avec des solutions sur-mesure, une expertise de haut niveau et une approche humaine.</p>
           <div className="flex flex-col md:flex-row gap-4 justify-center">
-            <Button as="a" href="/creer-societe/formulaire-creation" variant="primary" size="lg" className="cta-premium">CRÉER MA SOCIÉTÉ</Button>
-            <Button as="a" href="#services" variant="primary" size="lg" className="cta-premium">EN SAVOIR PLUS</Button>
+            <NewsletterWrapper />
           </div>
         </div>
       </section>
@@ -103,7 +103,7 @@ export default function Home() {
                   </div>
                 </li>
               </ul>
-              <Button as="a" href="/about" variant="primary" size="lg" className="mt-8">EN SAVOIR PLUS SUR NOUS</Button>
+              <Button as="a" href="/about-us" variant="primary" size="lg" className="mt-8">EN SAVOIR PLUS SUR NOUS</Button>
             </div>
             <div className="flex-1 flex items-center justify-center fade-in">
               <div className="rounded-3xl overflow-hidden shadow-2xl border-4 border-primary-600 bg-gray-50 transform hover:scale-105 transition-transform duration-300">
@@ -122,7 +122,7 @@ export default function Home() {
               <h3 className="subheadline-premium text-primary-600 mb-2">SOLUTIONS BANCAIRES</h3>
               <h2 className="headline-premium mb-6">Accompagnement Bancaire International</h2>
               <p className="mb-6 text-gray-600">Nous facilitons l&apos;ouverture de comptes bancaires professionnels dans les juridictions choisies, en partenariat avec des établissements financiers de confiance.</p>
-              <Button as="a" href="/banking" variant="primary" size="lg">EN SAVOIR PLUS</Button>
+              <Button as="a" href="/compte-bancaire-professionnel" variant="primary" size="lg">EN SAVOIR PLUS</Button>
             </div>
           </div>
         </div>
@@ -206,45 +206,45 @@ export default function Home() {
       </section>
 
       {/* FOOTER */}
-      <footer className="footer-premium">
-        <div className="container grid grid-cols-1 md:grid-cols-4 gap-8">
-          <div className="fade-in">
-            <div className="mb-4 font-bold text-2xl text-primary-600">Gresham Trust</div>
-            <p className="text-gray-300 text-sm mb-4">Plateforme premium pour la création et la gestion de sociétés à l’international.</p>
-            <div className="flex gap-3 mt-2">
-              <a href="#" className="w-8 h-8 bg-primary-600 rounded-full flex items-center justify-center text-white text-sm hover:bg-blue-800 transition">F</a>
-              <a href="#" className="w-8 h-8 bg-primary-600 rounded-full flex items-center justify-center text-white text-sm hover:bg-blue-800 transition">I</a>
-              <a href="#" className="w-8 h-8 bg-primary-600 rounded-full flex items-center justify-center text-white text-sm hover:bg-blue-800 transition">L</a>
+      <footer className="footer-premium w-full">
+        <div className="mx-auto px-4 py-12 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 md:grid-cols-12 gap-8">
+            <div className="md:col-span-4 fade-in">
+              <div className="mb-4 font-bold text-2xl text-primary-600">Gresham Trust</div>
+              <p className="text-gray-300 text-sm mb-4">Plateforme premium pour la création et la gestion de sociétés à l&apos;international.</p>
+              <div className="flex gap-3 mt-2">
+                <a href="#" aria-label="Facebook" className="w-8 h-8 bg-primary-600 rounded-full flex items-center justify-center text-white text-sm hover:bg-blue-800 transition">F</a>
+                <a href="#" aria-label="Instagram" className="w-8 h-8 bg-primary-600 rounded-full flex items-center justify-center text-white text-sm hover:bg-blue-800 transition">I</a>
+                <a href="#" aria-label="LinkedIn" className="w-8 h-8 bg-primary-600 rounded-full flex items-center justify-center text-white text-sm hover:bg-blue-800 transition">L</a>
+              </div>
+            </div>
+            <div className="md:col-span-3 fade-in">
+              <div className="mb-4 font-bold text-primary-600">Contact</div>
+              <div className="text-gray-300 text-sm mb-2">+33 751 05 73 27</div>
+              <div className="text-gray-300 text-sm">hello@greshamtrust.com</div>
+            </div>
+            <div className="md:col-span-3 fade-in">
+              <div className="mb-4 font-bold text-primary-600">Services</div>
+              <ul className="text-sm space-y-2 text-gray-300">
+                <li><a href="/creer-societe/formulaire-creation" className="hover:text-primary-600 transition">Création de société</a></li>
+                <li><a href="/comptabilite" className="hover:text-primary-600 transition">Comptabilité</a></li>
+                <li><a href="/fiscalite-luxembourg" className="hover:text-primary-600 transition">Fiscalité au Luxembourg</a></li>
+                <li><a href="/investir-singapour" className="hover:text-primary-600 transition">Investir à Singapour</a></li>
+              </ul>
+            </div>
+            <div className="md:col-span-2 fade-in">
+              <div className="mb-4 font-bold text-primary-600">Légal</div>
+              <ul className="text-sm space-y-2 text-gray-300">
+                <li><a href="/mentions-legales" className="hover:text-primary-600 transition">Mentions légales</a></li>
+                <li><a href="/politique-de-confidentialite" className="hover:text-primary-600 transition">Confidentialité</a></li>
+                <li><a href="/conditions-generales-de-vente" className="hover:text-primary-600 transition">CGV</a></li>
+              </ul>
             </div>
           </div>
-          <div className="fade-in">
-            <div className="mb-4 font-bold text-primary-600">Contact</div>
-            <div className="text-gray-300 text-sm">+33 751 05 73 27</div>
-            <div className="text-gray-300 text-sm">hello@greshamtrust.com</div>
-          </div>
-          <div className="fade-in">
-            <div className="mb-4 font-bold text-primary-600">Services</div>
-            <ul className="text-sm space-y-2 text-gray-300">
-              <li><a href="#" className="hover:text-primary-600 transition">Création de société</a></li>
-              <li><a href="#" className="hover:text-primary-600 transition">Comptabilité</a></li>
-              <li><a href="#" className="hover:text-primary-600 transition">Domiciliation</a></li>
-              <li><a href="#" className="hover:text-primary-600 transition">Banque professionnelle</a></li>
-            </ul>
-          </div>
-          <div className="fade-in">
-            <div className="mb-4 font-bold text-primary-600">Newsletter</div>
-            <p className="text-sm mb-3 text-gray-300">Recevez nos conseils et actualités</p>
-            <div className="flex">
-              <input
-                type="email"
-                placeholder="Votre email"
-                className="rounded-l-lg px-4 py-2 text-gray-900 bg-gray-50 focus:outline-none focus:ring-2 focus:ring-primary-600"
-              />
-              <Button type="submit" variant="primary" size="sm" className="rounded-l-none rounded-r-lg">OK</Button>
-            </div>
+          <div className="mt-12 pt-8 border-t border-gray-800 text-center text-xs text-gray-400 fade-in">
+            {new Date().getFullYear()} Gresham Trust. Tous droits réservés.
           </div>
         </div>
-        <div className="mt-12 text-center text-xs text-gray-400 fade-in">{new Date().getFullYear()} Gresham Trust. Tous droits réservés.</div>
       </footer>
     </main>
   );

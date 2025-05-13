@@ -14,7 +14,7 @@ export default function CreerSociete() {
           <h1 className="text-4xl font-bold mb-4">Votre société étrangère opérationnelle en 72h</h1>
           <p className="text-xl text-gray-600 mb-8">Depuis 1999, nous avons incorporé 1,200+ structures pour des entrepreneurs exigeants</p>
           <a 
-            href="#formulaire-creation" 
+            href="/creer-societe/formulaire-creation" 
             className="bg-green-600 text-white px-8 py-4 rounded-lg hover:bg-green-700 transition inline-block"
           >
             Démarrer l&apos;incorporation →
@@ -104,7 +104,7 @@ export default function CreerSociete() {
           <h2 className="text-3xl font-bold mb-4">Prêt à concrétiser votre projet ?</h2>
           <p className="mb-8">98% de nos clients recommandent notre service (survey 2023)</p>
           <a 
-            href="/formulaire-creation" 
+            href="/creer-societe/formulaire-creation" 
             className="bg-green-600 text-white px-8 py-4 rounded-lg hover:bg-green-700 transition inline-block"
           >
             Commencer maintenant

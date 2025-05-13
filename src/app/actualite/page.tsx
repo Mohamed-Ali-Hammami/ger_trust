@@ -14,7 +14,7 @@ export default function Actualite() {
           <article className="bg-white rounded-lg shadow-lg overflow-hidden">
             <div className="relative h-48">
               <Image
-                src="/images/actualite1.jpg"
+                src="/images/10-reasons.jpg"
                 alt="Créer une entreprise LTD"
                 fill
                 className="object-cover"
@@ -28,8 +28,8 @@ export default function Actualite() {
           <article className="bg-white rounded-lg shadow-lg overflow-hidden">
             <div className="relative h-48">
               <Image
-                src="/images/actualite2.jpg"
-                alt="Créer une entreprise à Londres"
+                src="/images/devloppement.gif"
+                alt="Créer une entreprise à l'étranger"
                 fill
                 className="object-cover"
               />

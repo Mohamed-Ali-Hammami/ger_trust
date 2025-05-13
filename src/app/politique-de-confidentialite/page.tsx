@@ -95,7 +95,7 @@ export default function PolitiqueConfidentialite() {
           <div>
             <h2 className="text-xl font-semibold mb-4">8. Droits des personnes</h2>
             <p>
-              Vous pouvez exercer vos droits via notre <a href="/rgpd-request" className="text-blue-600">formulaire dédié</a> :
+              Vous pouvez exercer vos droits via notre <a href="/rgdp-demande" className="text-blue-600">formulaire dédié</a> :
             </p>
             <div className="grid md:grid-cols-2 gap-4 mt-2">
               <div className="p-3 border rounded">

@@ -1,10 +1,12 @@
+import Image from 'next/image';
+
 export default function Article1() {
   return (
     <main className="min-h-screen pt-20 px-4">
       <h1 className="text-3xl font-bold mb-6">10 raisons pour créer une société LTD à Dubai, Gibraltar, Hong Kong, Luxembourg, Singapour ou en Suisse</h1>
       
       <div className="bg-gray-200 rounded-lg h-64 mb-8 flex items-center justify-center text-gray-500">
-        <span>Carte du monde avec des icônes d&apos;entreprises</span>
+        <Image src="/images/Carte-du-monde.gif" alt="Carte du monde avec des icônes d'entreprises" width={500} height={500} />
       </div>
 
       <div className="max-w-2xl mx-auto">

@@ -170,10 +170,10 @@ export default function FormulaireCreation() {
                 required 
               />
               <label htmlFor="terms" className="text-sm">
-                Je certifie l&apos;exactitude des informations fournies et accepte les 
-                <a href="/conditions-generales" className="text-blue-600 hover:underline ml-1">
-                  conditions générales
-                </a>*
+                Je certifie l&apos;exactitude des informations fournies et accepte la 
+                <a href="/politique-de-confidentialite" className="text-blue-600 hover:underline ml-1">
+                  politique de confidentialité*
+                </a>
               </label>
             </div>
 
@@ -185,7 +185,10 @@ export default function FormulaireCreation() {
                 required 
               />
               <label htmlFor="compliance" className="text-sm">
-                J&apos;atteste n&apos;être soumis à aucune procédure judiciaire ou sanction internationale*
+                J&apos;atteste n&apos;être soumis à aucune procédure judiciaire ou sanction internationale
+                <a href="/mentions-legales" className="text-blue-600 hover:underline ml-1">
+                  mentions légales*
+                </a>
               </label>
             </div>
 

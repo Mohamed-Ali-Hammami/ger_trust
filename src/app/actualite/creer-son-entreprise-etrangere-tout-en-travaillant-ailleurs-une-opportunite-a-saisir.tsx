@@ -1,10 +1,12 @@
+import Image from "next/image";
+
 export default function Article2() {
   return (
     <main className="min-h-screen pt-20 px-4">
       <h1 className="text-3xl font-bold mb-6">Créer son entreprise étrangère tout en travaillant ailleurs : une opportunité à saisir</h1>
       
       <div className="bg-gray-200 rounded-lg h-64 mb-8 flex items-center justify-center text-gray-500">
-        <span>Digital nomade travaillant sur ordinateur portable avec documents juridiques</span>
+        <Image src="/images/working-people.jpg" alt="employés travaillant à distance" width={500} height={500} />
       </div>
 
       <div className="max-w-2xl mx-auto">
