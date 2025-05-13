@@ -37,9 +37,9 @@ export default function RgpdDemande() {
 
   return (
     <main className="min-h-screen flex items-center justify-center bg-grey-100 px-4 py-16">
-      <div className="max-w-xl w-full bg-white rounded-2xl shadow-royal-lg p-8">
+      <div className="max-w-xl w-full bg-white rounded-2xl shadow-marine-lg p-8">
         <h1 className="headline-premium mb-6 text-3xl md:text-4xl">Demande RGPD</h1>
-        <p className="mb-6 text-gray-700 text-center text-base">Utilisez ce formulaire pour exercer vos droits d&apos;accès, de portabilité, d&apos;effacement ou de restriction conformément au RGPD.</p>
+        <p className="mb-6 text-marine-500 text-center text-base">Utilisez ce formulaire pour exercer vos droits d&apos;accès, de portabilité, d&apos;effacement ou de restriction conformément au RGPD.</p>
         {submitted ? (
           <div className="p-4 bg-green-100 rounded text-green-700 text-center font-semibold">
             Votre demande a été envoyée. Nous vous répondrons sous 30 jours.
@@ -52,7 +52,7 @@ export default function RgpdDemande() {
                 type="text"
                 id="name"
                 name="name"
-                className="w-full border border-gray-300 rounded px-4 py-2 focus:ring-2 focus:ring-royal-500 focus:outline-none"
+                className="w-full border border-gray-300 rounded px-4 py-2 focus:ring-2 focus:ring-marine-500 focus:outline-none"
                 value={form.name}
                 onChange={handleChange}
                 required
@@ -64,7 +64,7 @@ export default function RgpdDemande() {
                 type="email"
                 id="email"
                 name="email"
-                className="w-full border border-gray-300 rounded px-4 py-2 focus:ring-2 focus:ring-royal-500 focus:outline-none"
+                className="w-full border border-gray-300 rounded px-4 py-2 focus:ring-2 focus:ring-marine-500 focus:outline-none"
                 value={form.email}
                 onChange={handleChange}
                 required
@@ -75,7 +75,7 @@ export default function RgpdDemande() {
               <select
                 id="type"
                 name="type"
-                className="w-full border border-gray-300 rounded px-4 py-2 focus:ring-2 focus:ring-royal-500 focus:outline-none"
+                className="w-full border border-gray-300 rounded px-4 py-2 focus:ring-2 focus:ring-marine-500 focus:outline-none"
                 value={form.type}
                 onChange={handleChange}
                 required
@@ -92,7 +92,7 @@ export default function RgpdDemande() {
               <textarea
                 id="message"
                 name="message"
-                className="w-full border border-gray-300 rounded px-4 py-2 focus:ring-2 focus:ring-royal-500 focus:outline-none"
+                className="w-full border border-gray-300 rounded px-4 py-2 focus:ring-2 focus:ring-marine-500 focus:outline-none"
                 rows={4}
                 value={form.message}
                 onChange={handleChange}
@@ -114,7 +114,7 @@ export default function RgpdDemande() {
             {error && <div className="text-red-600 text-sm font-semibold">{error}</div>}
             <button
               type="submit"
-              className="w-full bg-royal-600 hover:bg-royal-700 text-white font-bold py-2 px-4 rounded-xl shadow-royal transition-all duration-300"
+              className="w-full bg-marine-600 hover:bg-marine-700 text-white font-bold py-2 px-4 rounded-xl shadow-royal transition-all duration-300"
             >
               Envoyer ma demande
             </button>

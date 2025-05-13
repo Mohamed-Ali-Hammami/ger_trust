@@ -142,7 +142,7 @@ export default function Navbar() {  // <-- This was missing
                 height={40}
                 className="rounded-full"
               />
-              <span className="text-2xl font-bold text-blue-600">Gresham Trust</span>
+              <span className="text-2xl font-bold text-blue-800">Gresham Trust</span>
             </Link>
           </div>
 

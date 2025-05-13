@@ -7,33 +7,33 @@ export default {
   theme: {
     extend: {
       colors: {
-        // Royal Blue (Bleu Roi) color palette
-        royal: {
-          50: "#f0f5ff",
-          100: "#dbe8fe",
-          200: "#bfd7fe",
-          300: "#93bbfd",
-          400: "#6094fa",
-          500: "#3b76f6", // Base royal blue
-          600: "#2658eb",
-          700: "#1f46d8",
-          800: "#1f3aaf",
-          900: "#1f348a",
-          950: "#172254", // Dark royal blue
+        // Marine Blue color palette
+        marine: {
+          50: "#eaf1f8",
+          100: "#c9d6e6",
+          200: "#a2bad3",
+          300: "#7495b5",
+          400: "#45709a",
+          500: "#17426c", // Base marine blue
+          600: "#13365a",
+          700: "#102840",
+          800: "#0c1d2e",
+          900: "#091522",
+          950: "#060d13", // Very dark marine
         },
-        // Grey color palette
+        // Dark Gray color palette
         grey: {
-          50: "#f9fafb",
-          100: "#f3f4f6",
-          200: "#e5e7eb",
-          300: "#d1d5db",
-          400: "#9ca3af",
-          500: "#6b7280",
-          600: "#4b5563",
-          700: "#374151",
-          800: "#1f2937",
-          900: "#111827",
-          950: "#030712", // Almost black
+          50: "#23262b",
+          100: "#23262b",
+          200: "#23262b",
+          300: "#23262b",
+          400: "#23262b",
+          500: "#23262b",
+          600: "#23262b",
+          700: "#1a1d21",
+          800: "#181b20",
+          900: "#14161a",
+          950: "#101216", // Almost black
         },
         // Black shades
         black: {
@@ -50,11 +50,11 @@ export default {
           950: "#000000", // Pure black
         },
         // Accent colors
-        accent: {
-          light: "#4f9cf9", // Lighter royal blue
-          DEFAULT: "#3b76f6", // Matches royal.500
-          dark: "#2658eb", // Matches royal.600
-        },
+accent: {
+  light: "#45709a", // Lighter marine blue
+  DEFAULT: "#17426c", // Base marine blue
+  dark: "#102840", // Dark marine blue
+},
       },
       fontFamily: {
         sans: ["Inter", "system-ui", "sans-serif"],
@@ -62,12 +62,12 @@ export default {
         mono: ["Menlo", "monospace"],
       },
       boxShadow: {
-        'royal': '0 4px 14px 0 rgba(59, 118, 246, 0.2)',
-        'royal-lg': '0 10px 28px 0 rgba(59, 118, 246, 0.25)',
+        'marine': '0 4px 14px 0 rgba(23, 66, 108, 0.18)',
+        'marine-lg': '0 10px 28px 0 rgba(23, 66, 108, 0.22)',
       },
       backgroundImage: {
-        'royal-gradient': 'linear-gradient(135deg, #3b76f6 0%, #1f46d8 100%)',
-        'dark-gradient': 'linear-gradient(135deg, #111827 0%, #030712 100%)',
+        'marine-gradient': 'linear-gradient(135deg, #17426c 0%, #102840 100%)',
+        'dark-gradient': 'linear-gradient(135deg, #181b20 0%, #101216 100%)',
       }
     },
   },
