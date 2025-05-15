@@ -18,7 +18,7 @@ export const Singapour = () => {
       "Environnement 100% anglophone avec main-d'œuvre hautement qualifiée",
       "Option premium : Introduction bancaire accélérée auprès des établissements partenaires les plus sélectifs"
     ],
-    cta: "Découvrir les opportunités à Singapour"
+    cta: "Commencer maintenant"
   };
 
   return <Country {...data} />;

@@ -11,7 +11,7 @@ export default function NewsletterWrapper() {
 
   return (
     <Newsletter
-      guideTitle="Guide de création d'entreprise étrangère"
+      guideTitle="Euro numérique : stratégies et alternative offshore face à la monnaie digitale"
       onSubmit={handleSubmit}
     />
   );

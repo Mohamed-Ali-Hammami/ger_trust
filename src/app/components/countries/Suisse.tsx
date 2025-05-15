@@ -18,7 +18,7 @@ export const Suisse = () => {
       "Environnement multilingue (allemand, français, italien, anglais) opérationnel",
       "Option exclusive : Accès prioritaire aux banques privées suisses pour ouverture de compte corporate avec conditions privilégiées"
     ],
-    cta: "Découvrir les opportunités en Suisse",
+    cta: "Commencer maintenant",
   };
 
   return <Country {...data} />;

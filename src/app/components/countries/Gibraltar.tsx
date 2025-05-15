@@ -17,7 +17,7 @@ export const Gibraltar = () => {
       "Réseau bancaire solide avec banques internationales présentes",
       "Option stratégique : Package incluant compte bancaire et licence financière si nécessaire"
     ],
-    cta: "Découvrir les opportunités à Gibraltar",
+    cta: "Commencer maintenant",
   };
 
   return <Country {...data} />;

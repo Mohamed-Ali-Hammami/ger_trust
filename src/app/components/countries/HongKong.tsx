@@ -17,7 +17,7 @@ export const HongKong = () => {
       "Réseau bancaire international avec présence des plus grandes banques",
       "Option stratégique : Package incluant compte bancaire et licence financière"
     ],
-    cta: "Découvrir les opportunités à Hong Kong",
+    cta: "Commencer maintenant",
   };
 
   return <Country {...data} />;

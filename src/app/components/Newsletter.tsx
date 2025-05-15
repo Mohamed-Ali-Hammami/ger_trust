@@ -34,7 +34,7 @@ export const Newsletter: React.FC<NewsletterProps> = ({ guideTitle, onSubmit }) 
     <div className="max-w-4xl mx-auto p-8 bg-white rounded-lg shadow-lg">
       <div className="text-center mb-8">
         <h1 className="text-3xl font-bold text-gray-800 mb-4">
-          Guide Spécial Euro Numérique
+        Guide pratique pour anticiper et sécuriser son argent
         </h1>
         <p className="text-gray-600 leading-relaxed">
           En ces temps de transformation financière, certains perçoivent ce que la majorité ignore encore : une épargne bien protégée est la dernière véritable liberté. Ce guide confidentiel est dédié aux personnes avisées qui, comme vous, entendent préserver leur patrimoine avec discernement. Vous y découvrirez des solutions élégantes et parfaitement discrètes pour composer avec les évolutions monétaires tout en gardant le contrôle de votre argent.

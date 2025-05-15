@@ -23,7 +23,7 @@ export const Dubai = () => {
       "Écosystème complet incluant sièges sociaux virtuels et services administratifs premium",
       "Solution intégrée : Package corporate incluant compte bancaire business avec assistance prioritaire"
     ],
-    cta: "Découvrir les opportunités à Dubai"
+    cta: "Commencer maintenant"
   };
 
   return <Country {...data} />;

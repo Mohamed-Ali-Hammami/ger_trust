@@ -18,7 +18,7 @@ export const Luxembourg = () => {
       "Environnement multilingue (français, anglais, allemand) pour une intégration aisée",
       "Option exclusive : Accompagnement personnalisé pour ouverture de compte bancaire corporate auprès des établissements les plus prestigieux"
     ],
-    cta: "Découvrir les opportunités au Luxembourg"
+    cta: "Commencer maintenant"
   };
 
   return <Country {...data} />;

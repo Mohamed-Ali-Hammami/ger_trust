@@ -8,6 +8,7 @@ export default function Home() {
       {/* HERO SECTION */}
       <section className="section-hero">
         <div className="relative z-10 w-full flex flex-col items-center justify-center text-center px-4 py-24 md:py-32">
+          <Image src="/images/logo.png" alt="Gresham Trust" width={400} height={400} className="w-40 h-40 mb-6" />
           <h1 className="headline-premium fade-in">Gresham Trust</h1>
           <div className="divider-premium" />
           <p className="subheadline-premium max-w-2xl mx-auto mb-6 fade-in">Votre Partenaire International pour la Création et la Gestion d’Entreprises Premium</p>
@@ -22,26 +23,26 @@ export default function Home() {
       <section className="section">
         <div className="container">
           <div className="text-center mb-12">
-            <h2 className="headline-premium fade-in text-slate-500">« Excellence, Confiance, Croissance »</h2>
+            <h2 className="headline-premium fade-in text-slate-400">« Excellence, Confiance, Croissance »</h2>
             <div className="divider-premium mx-auto" />
           </div>
-          <div className="max-w-4xl mx-auto text-center text-gray-400 space-y-6 fade-in">
+          <div className="max-w-4xl mx-auto text-center text-gray-200 space-y-6 fade-in">
             <p>Depuis 1999, Gresham Trust Ltd. incarne l&apos;excellence dans le conseil en investissement et l&apos;accompagnement stratégique pour les entrepreneurs, investisseurs institutionnels et particuliers fortunés. Notre réputation repose sur une expertise rigoureuse, un réseau international et une éthique irréprochable.</p>
             <p>Notre cabinet se distingue par une approche personnalisée, alliant réactivité et discrétion. Contrairement aux acteurs généralistes, nous privilégions une relation de confiance à long terme, où votre succès devient notre référence. Nos clients bénéficient d&apos;un accès privilégié à des outils d&apos;analyse exclusifs et à un réseau bancaire trié sur le volet.</p>
             <p className="font-semibold">Engagés à transcender les simples conseils, nous transformons les complexités juridiques et financières en opportunités claires et maîtrisées. Parce que votre réussite mérite plus que des promesses, elle exige l&apos;excellence opérationnelle.</p>
           </div>
           <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="card-premium fade-in">
-              <h3 className="font-bold text-xl mb-2 text-slate-500">Stratégie sur-mesure</h3>
-              <p className="text-gray-500">Solutions adaptées à chaque ambition, locale ou transnationale</p>
+              <h3 className="font-bold text-xl mb-2 text-slate-400">Stratégie sur-mesure</h3>
+              <p className="text-gray-200">Solutions adaptées à chaque ambition, locale ou transnationale</p>
             </div>
             <div className="card-premium fade-in">
-              <h3 className="font-bold text-xl mb-2 text-slate-500">Réseau exclusif</h3>
-              <p className="text-gray-500">Partenariats bancaires et juridiques triés sur le volet</p>
+              <h3 className="font-bold text-xl mb-2 text-slate-400">Réseau exclusif</h3>
+              <p className="text-gray-200">Partenariats bancaires et juridiques triés sur le volet</p>
             </div>
             <div className="card-premium fade-in">
-              <h3 className="font-bold text-xl mb-2 text-slate-500">Expertise depuis 1999</h3>
-              <p className="text-gray-500">Une expérience éprouvée au service de votre croissance</p>
+              <h3 className="font-bold text-xl mb-2 text-slate-400">Expertise depuis 1999</h3>
+              <p className="text-gray-200">Une expérience éprouvée au service de votre croissance</p>
             </div>
           </div>
         </div>
@@ -50,23 +51,23 @@ export default function Home() {
       {/* SERVICES SECTION */}
       <section id="services" className="section-alt">
         <div className="container">
-          <h2 className="headline-premium text-center fade-in text-slate-500">Nos Services Premium</h2>
+          <h2 className="headline-premium text-center fade-in text-slate-400">Nos Services Premium</h2>
           <div className="divider-premium mx-auto" />
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
             <div className="card-premium fade-in">
               <div className="text-5xl mb-6 text-accent">🌐</div>
               <h3 className="font-bold text-2xl mb-2 text-accent">Création Internationale</h3>
-              <p className="text-gray-500">Constitution rapide et sécurisée de sociétés dans les juridictions les plus attractives du monde.</p>
+              <p className="text-gray-200">Constitution rapide et sécurisée de sociétés dans les juridictions les plus attractives du monde.</p>
             </div>
             <div className="card-premium fade-in">
               <div className="text-5xl mb-6 text-accent">📊</div>
               <h3 className="font-bold text-2xl mb-2 text-accent">Comptabilité & Fiscalité</h3>
-              <p className="text-gray-500">Gestion comptable, fiscale et conformité avec optimisation sur-mesure pour chaque projet.</p>
+              <p className="text-gray-200">Gestion comptable, fiscale et conformité avec optimisation sur-mesure pour chaque projet.</p>
             </div>
             <div className="card-premium fade-in">
               <div className="text-5xl mb-6 text-accent">💼</div>
               <h3 className="font-bold text-2xl mb-2 text-accent">Accompagnement Premium</h3>
-              <p className="text-gray-500">Support stratégique, juridique et bancaire à chaque étape de votre développement.</p>
+              <p className="text-gray-200">Support stratégique, juridique et bancaire à chaque étape de votre développement.</p>
             </div>
           </div>
         </div>
@@ -77,7 +78,7 @@ export default function Home() {
         <div className="container">
           <div className="flex flex-col md:flex-row items-center gap-12 md:gap-16">
             <div className="flex-1 text-center md:text-left fade-in">
-              <h2 className="headline-premium">Gresham Trust : Votre Partenaire de Confiance</h2>
+              <h2 className="text-4xl font-bold text-slate-400 mb-6">Gresham Trust : Votre Partenaire de Confiance</h2>
               <div className="divider-premium md:mx-0" />
               <p className="text-lg text-white/90 mb-6">Depuis notre création en 1999, Gresham Trust accompagne les entrepreneurs et les entreprises dans leur développement international. Notre expertise couvre les juridictions les plus attractives, offrant des solutions sur mesure pour chaque projet.</p>
               <ul className="space-y-4 text-white/90">
@@ -119,8 +120,8 @@ export default function Home() {
         <div className="container">
           <div className="flex flex-col md:flex-row gap-8 items-center">
             <div className="flex-1 fade-in">
-              <h2 className="headline-premium mb-6">Accompagnement Bancaire International</h2>
-              <p className="mb-6 text-gray-400">Nous facilitons l&apos;ouverture de comptes bancaires professionnels dans les juridictions choisies, en partenariat avec des établissements financiers de confiance.</p>
+              <h2 className="headline-premium mb-6 text-slate-400">Accompagnement Bancaire International</h2>
+              <p className="mb-6 text-gray-200">Nous facilitons l&apos;ouverture de comptes bancaires professionnels dans les juridictions choisies, en partenariat avec des établissements financiers de confiance.</p>
               <Button as="a" href="/compte-bancaire-professionnel" variant="primary" size="lg">EN SAVOIR PLUS</Button>
             </div>
           </div>
@@ -131,29 +132,29 @@ export default function Home() {
       <section className="section-alt">
         <div className="container">
           <div className="text-center mb-12 fade-in">
-            <h2 className="headline-premium text-slate-500">Notre Processus en 4 Étapes</h2>
+            <h2 className="headline-premium text-slate-400">Notre Processus en 4 Étapes</h2>
             <div className="divider-premium mx-auto" />
           </div>
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mt-12">
             <div className="card-premium fade-in">
               <div className="text-4xl text-accent font-black mb-4">1</div>
               <h3 className="font-bold text-xl mb-2 text-white">Consultation</h3>
-              <p className="text-gray-400">Analyse personnalisée de votre projet et recommandations sur-mesure.</p>
+              <p className="text-gray-200">Analyse personnalisée de votre projet et recommandations sur-mesure.</p>
             </div>
             <div className="card-premium fade-in">
               <div className="text-4xl text-accent font-black mb-4">2</div>
               <h3 className="font-bold text-xl mb-2 text-white">Préparation</h3>
-              <p className="text-gray-400">Préparation complète des documents et formalités légales.</p>
+              <p className="text-gray-200">Préparation complète des documents et formalités légales.</p>
             </div>
             <div className="card-premium fade-in">
               <div className="text-4xl text-accent font-black mb-4">3</div>
               <h3 className="font-bold text-xl mb-2 text-white">Création</h3>
-              <p className="text-gray-400">Mise en place rapide et sécurisée de votre structure.</p>
+              <p className="text-gray-200">Mise en place rapide et sécurisée de votre structure.</p>
             </div>
             <div className="card-premium fade-in">
               <div className="text-4xl text-accent font-black mb-4">4</div>
               <h3 className="font-bold text-xl mb-2 text-white">Accompagnement</h3>
-              <p className="text-gray-400">Support continu et optimisation de votre développement.</p>
+              <p className="text-gray-200">Support continu et optimisation de votre développement.</p>
             </div>
           </div>
         </div>
