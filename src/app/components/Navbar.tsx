@@ -110,6 +110,7 @@ export default function Navbar() {  // <-- This was missing
       name: "Contact",
       items: [
         { name: "Prendre rendez-vous", href: "/contact" },
+        { name: "Newsletter", href: "/newsletter" }
       ]
     }
   };
